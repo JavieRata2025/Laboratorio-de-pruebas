@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-ink: #1E293B;
+  --color-secondary: #4CC9F0;
+  --color-primary: #FF6B35;
+  --color-accent: #FFD166;
+}
+
+body {
+  color: theme('colors.ink');
+  background: theme('colors.bg');
+  font-family: theme('fontFamily.sans');
+}
